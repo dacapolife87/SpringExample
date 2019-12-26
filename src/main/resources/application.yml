@@ -1,0 +1,10 @@
+server:
+  port: 15450
+spring:
+  redis:
+    host: localhost
+    port: 6379
+example:
+  server:
+    url: 127.0.0.1
+    port: 15450
