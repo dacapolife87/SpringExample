@@ -5,7 +5,7 @@ spring:
     host: localhost
     port: 6379
   datasource:
-#    url: jdbc:h2:tcp://localhost/~/springbootjpamvn;MVCC=TRUE
+    url: jdbc:h2:tcp://localhost/~/springexample
     username: sa
     password:
     driver-class-name: org.h2.Driver
@@ -17,6 +17,8 @@ spring:
           #        show_sql: true # systemOut log
           format_sql: true
 example:
+  value:
+    order: 1000
   server:
     url: 127.0.0.1
     port: 15450
